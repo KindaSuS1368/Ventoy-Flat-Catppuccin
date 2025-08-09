@@ -1,0 +1,166 @@
+# Hide the GRUB title
+title-text: ""
+
+# Set the background image
+desktop-image: "background.jpg"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+desktop-image-v-align: "center"
+
+# Unused but for backwards compatibility
+message-color: "#cdd6f4"
+message-font: "Comic Mono Regular 24"
+message-bg-color: "#181825"
+
+# Set the terminal dimensions
+terminal-left: "50%-640"
+terminal-top: "50%-360"
+terminal-width: "1280"
+terminal-height: "720"
+
+
+# Title
++ hbox {
+  left = 50%-206
+  width = 157
+  top = 50%-349
+  height = 51
+  + image {
+    file = "title.png"
+  }
+}
+
+# Title box
++ image {
+  file = "crust.png"
+  left = 50%-640
+  width = 1024
+  top = 50%-360
+  height = 72
+}
+
+
+# Info
++ hbox {
+  left = 50%+422
+  width = 180
+  top = 50%-236
+  height = 472
+  + image {
+    file = "info.png"
+  }
+}
+
+# Info box
++ image {
+  file = "base.png"
+  left = 50%+384
+  top = 50%-360
+  height = 720
+  width = 256
+}
+
+
+# Progress
++ label {
+  id = "__timeout__"
+  text = "%ds"
+  font = "Comic Mono Regular 24"
+  align = "center"
+
+  left = 50%+336
+  width = 40
+  top = 50%+323
+  height = 27
+
+  color = "#cdd6f4"
+}
+
+# Status
++ hbox {
+  left = 50%-632
+  top = 50%+320
+  height = 27
+  + label {
+    text = ":-)"
+    font = "Comic Mono Regular 24"
+    width = 78
+    color = "#cdd6f4"
+    align = "left"
+  }
+  + label {
+    text = "@VTOY_MEM_DISK@"
+    font = "Comic Mono Regular 24"
+    width = 156
+    color = "#cdd6f4"
+    align = "left"
+  }
+  + label {
+    text = "@VTOY_GRUB2_MODE@"
+    font = "Comic Mono Regular 24"
+    width = 169
+    color = "#cdd6f4"
+    align = "left"
+  }
+  + label {
+    text = "@VTOY_ISO_UEFI_DRV@"
+    font = "Comic Mono Regular 24"
+    width = 130
+    color = "#cdd6f4"
+    align = "left"
+  }
+  + label {
+    text = "@VTOY_ISO_RAW@"
+    font = "Comic Mono Regular 24"
+    width = 235
+    color = "#cdd6f4"
+    align = "left"
+  }
+  + label {
+    text = "@VTOY_WIMBOOT_MODE@"
+    font = "Comic Mono Regular 24"
+    width = 195
+    color = "#cdd6f4"
+    align = "left"
+  }
+}
+
+# Status box
++ image {
+  file = "crust.png"
+  left = 50%-640
+  width = 1024
+  top = 50%+312
+  height = 48
+}
+
+
+# Main
++ boot_menu {
+  left = 50%-640
+  width = 1024
+  top = 50%-288
+  height = 600
+
+  item_font = "Comic Mono Regular 24"
+  item_color = "#cdd6f4"
+  selected_item_color = "#181825"
+  item_height = 40
+  item_padding = 0
+  item_spacing = 0
+  selected_item_pixmap_style = "blue_*.png"
+
+  scrollbar = true
+  scrollbar_width = 8
+  scrollbar_thumb = "surface0_*.png"
+  scrollbar_slice = "center"
+}
+
+# Main box
++ image {
+  file = "mantle.png"
+  left = 50%-640
+  width = 1024
+  top = 50%-288
+  height = 600
+}
