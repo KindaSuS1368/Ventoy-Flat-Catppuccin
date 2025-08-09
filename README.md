@@ -1,6 +1,8 @@
 # Ventoy-Flat-Catppuccin
 A flat Catppuccin Mocha (Blue) theme for Ventoy.
 
+![Preview](/assets/Preview.png)
+
 ## Installation
 
 > [!IMPORTANT]
