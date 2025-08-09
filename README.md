@@ -19,7 +19,7 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
             "/ventoy/themes/theme-vfc/theme.txt"
         ],
         "fonts":[
-            "/ventoy/themes/568flat_x2/ComicMono.pf2"
+            "/ventoy/themes/theme-vfc/ComicMono.pf2"
         ]
     }
 }
