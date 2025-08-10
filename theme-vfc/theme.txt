@@ -44,7 +44,7 @@ terminal-height: "720"
 + hbox {
   left = 50%+422
   width = 180
-  top = 50%-236
+  top = 50%-208
   height = 472
   + image {
     file = "info.png"
