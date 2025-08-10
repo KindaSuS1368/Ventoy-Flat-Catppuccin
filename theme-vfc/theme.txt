@@ -1,3 +1,6 @@
+# Copyright (C) 2024 PJ568
+# Copyright (C) 2025 KindaSuS
+
 # Hide the GRUB title
 title-text: ""
 
