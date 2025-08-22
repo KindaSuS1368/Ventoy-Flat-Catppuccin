@@ -16,10 +16,10 @@ message-font: "Comic Mono Regular 24"
 message-bg-color: "#181825"
 
 # Set the terminal dimensions
-terminal-left: "50%-640"
-terminal-top: "50%-360"
-terminal-width: "1280"
-terminal-height: "720"
+terminal-left: "50%-667"
+terminal-top: "50%-387"
+terminal-width: "1334"
+terminal-height: "774"
 
 
 # Title
