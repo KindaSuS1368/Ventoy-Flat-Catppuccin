@@ -6,11 +6,15 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
 ## Installation
 
 > [!IMPORTANT]
-> This theme is intended to be displayed at the resolution `1280x720` or higher.
-> Displaying it at lower resolutions will result in elements getting cut-off.
+> This theme is intended to be displayed at the resolution `1280x720` or higher. Displaying it at lower resolutions will result in elements getting cut-off.
+> 
+> Provided font only supports languages written in the Roman script, no accents.
 
-1. Clone the repo: `git clone https://github.com/KindaSuS1368/Ventoy-Flat-Catppuccin`
-2. Paste the `theme-vfc` folder into the `/ventoy/themes/` folder inside your Ventoy drive.
+> [!NOTE]
+> Elements may appear small on high DPI displays.
+
+1. Download the `theme-vfc.zip` from the latest [GitHub release](https://github.com/KindaSuS1368/Ventoy-Flat-Catppuccin/releases/latest), extract it.
+2. Paste the extracted `theme-vfc` folder into the `/ventoy/themes/` folder inside your Ventoy drive.
 3. Modify the `/ventoy/ventoy.json` file to contain
 ```json
 {
