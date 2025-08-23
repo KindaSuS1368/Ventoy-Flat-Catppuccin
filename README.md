@@ -8,7 +8,7 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
 > [!IMPORTANT]
 > This theme is intended to be displayed at the resolution `1280x720` or higher. Displaying it at lower resolutions will result in elements getting cut-off.
 > 
-> Provided font only supports languages written in the Roman script, no accents.
+> Only the languages that are written in the Roman script, without accents, are supported.
 
 > [!NOTE]
 > Elements may appear small on high DPI displays.
