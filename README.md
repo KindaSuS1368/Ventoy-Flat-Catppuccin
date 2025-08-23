@@ -12,6 +12,8 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
 
 > [!NOTE]
 > Elements may appear small on high DPI displays.
+>
+> The mode indicators in the status (bottom) bar (Memdisk, UEFI FS, etc) only show when you enable the respective mode. You can get details about enabling these modes by pressing `F1` in Ventoy.
 
 1. Download the `theme-vfc.zip` from the latest [GitHub release](https://github.com/KindaSuS1368/Ventoy-Flat-Catppuccin/releases/latest), extract it.
 2. Paste the extracted `theme-vfc` folder into the `/ventoy/themes/` folder inside your Ventoy drive.
