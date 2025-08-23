@@ -48,7 +48,7 @@ terminal-height: "774"
   left = 50%+422
   width = 180
   top = 50%-208
-  height = 472
+  height = 416
   + image {
     file = "info.png"
   }
