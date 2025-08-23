@@ -17,8 +17,8 @@ message-bg-color: "#181825"
 
 # Set the terminal dimensions
 terminal-left: "50%-667"
-terminal-top: "50%-387"
 terminal-width: "1334"
+terminal-top: "50%-387"
 terminal-height: "774"
 
 
@@ -58,9 +58,9 @@ terminal-height: "774"
 + image {
   file = "base.png"
   left = 50%+384
+  width = 256
   top = 50%-360
   height = 720
-  width = 256
 }
 
 
