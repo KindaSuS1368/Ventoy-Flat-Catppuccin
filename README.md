@@ -24,8 +24,12 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
 ```json
 {
     "theme":{
-        "file": "/ventoy/themes/theme-vfc/theme.txt",
-        "fonts": "/ventoy/themes/theme-vfc/ComicMono.pf2",
+        "file":[
+            "/ventoy/themes/theme-vfc/theme.txt"
+        ],
+        "fonts":[
+            "/ventoy/themes/theme-vfc/ComicMono.pf2"
+        ],
         "gfxmode": "max"
     }
 }
