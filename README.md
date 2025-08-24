@@ -19,15 +19,15 @@ A flat Catppuccin Mocha (Blue) theme for Ventoy.
 
 1. Download the `theme-vfc.zip` from the latest [GitHub release](https://github.com/KindaSuS1368/Ventoy-Flat-Catppuccin/releases/latest), extract it.
 2. Paste the extracted `theme-vfc` folder into the `/ventoy/themes/` folder inside your Ventoy drive.
-3. Modify the `/ventoy/ventoy.json` file to contain
+3. Modify the `/ventoy/ventoy.json` file to contain:
 
 ```json
 {
-    "theme":{
-        "file":[
+    "theme": {
+        "file": [
             "/ventoy/themes/theme-vfc/theme.txt"
         ],
-        "fonts":[
+        "fonts": [
             "/ventoy/themes/theme-vfc/ComicMono.pf2"
         ],
         "gfxmode": "max"
